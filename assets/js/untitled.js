@@ -1,5 +1,5 @@
 $('.img-fluid').each(function (index) {
-$(this).attr('src','./thumbs/'+index+'_tn.jpg');
-$(this).parent().attr('href','./img/'+index+'.jpg')
+$(this).attr('src','./assets/img/thumbs/'+index+'_tn.jpg');
+$(this).parent().attr('href','./assets/img/img/'+index+'.jpg')
         
 });
